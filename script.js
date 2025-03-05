@@ -19,3 +19,16 @@ pokemon = "Pikachu" ;
 
 // Can DECLARE + ASSIGN in one statement
 let name = "Caleb" ;
+
+// DECLARE a new variable (buying a box)
+let luckyNumber;
+
+// ASSIGN a value to that variable
+// (putting an item in a box)
+luckyNumber = 13;
+
+// DECLARE + ASSIGN in one statement
+let worstNumber = 7;
+
+// You can "PASS IN" a variable into a FUNCTION
+console.log(luckyNumber);
