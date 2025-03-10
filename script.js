@@ -56,4 +56,33 @@ console.log(score);
 score = score / 5;
 console.log(score);
 
+// Can continue operators, evaluation follows PEMDAS
+score = (score * 7 / 5) ** 2 - 10 + 5 ;
+console.log(score);
 
+// Working with STRINGS (words/setences/characters)
+// QUOTES always go around String LITERALS
+let greeting = "Hello " + "Friend";
+// The PLUS SIGN merges (CONCATENATES) strings
+console.log(greeting);
+
+// Combine literal strings with VARIABLES
+let username = "Caleb";
+greeting = "Hello " + username;
+console.log(greeting);
+
+// Can CONCATENATE inside a function
+console.log("Goodbye, " + username + "!");
+
+// Converting to strings
+console.log(4 + 5); // 9 (added numbers)
+console.log("4" + 5); // 45
+console.log(4 + '5'); // 45
+
+// SPECIAL OPERATORS: Increment/Decrement
+let counter = 0;
+counter = counter + 1; // LONG WAY
+counter++; // SHORTCUT
+console.log("Count: " + counter);
+counter--;
+console.log("Count: " + counter);
