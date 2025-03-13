@@ -86,3 +86,46 @@ counter++; // SHORTCUT
 console.log("Count: " + counter);
 counter--;
 console.log("Count: " + counter);
+
+/* FUNCTIONS:
+Reusable sets of code statements
+that perform a specific task or process
+*/
+
+// Example of CALLING (using) a function
+console.log("hello");
+
+// Example of DECLARING (creating) a function
+function cook() {
+    // 3-statements (steps/instructions)
+    console.log("1. Go to the kitchen");
+    console.log("2. Get the ingredients");
+    console.log("3. Cook the food");
+}
+// To CALL (run) our function, say its name
+cook();
+cook(); // repeated the cooking again!
+
+/* Functions are like RECIPES:
+    Reliably perform the same set of actions
+    for a consistent result.
+    PARAMETERS (input) are like ingredients/input
+    RETURN values (output) - the completed meal
+*/
+
+// Sandwich-making example of a function
+// that required PARAMETERS and RETURNS data
+// (takes input, provides output)
+function makeSandwich(bread, filling, sauce, cheese) {
+    // function BODY (procedure/recipe steps)
+    let sandwich = filling + " sandwich with " + bread + " on " + cheese;
+    return sandwich;
+}
+// Call a function that RETURNS data
+// store the output in a variable!
+let burger = makeSandwich("bun", "patty", "ketchup", "cheese");
+console.log(burger);
+
+// TRY the function wit different ARGUMENTS (input data)
+let cheese = makeSandwich("bread", "cheese", "butter");
+console.log(cheese);
