@@ -129,3 +129,24 @@ console.log(burger);
 // TRY the function wit different ARGUMENTS (input data)
 let cheese = makeSandwich("bread", "cheese", "butter");
 console.log(cheese);
+
+// *** Selection (CONDITIONALS) ***
+// A conditional expression is like a QUESTION
+// where a boolean (true/false) is the ANSWER
+
+// Conditions that include COMPARISON OPERATORS
+// get EVALUATED and result in true/false
+console.log( 2 > 1 ); // true
+console.log( 2 == 1 ); // == means are they equal?
+console.log( 2 != 1 ); // != means NOT equal
+console.log( (1+2) == (2+2) );
+console.log( 2 >= 3 );
+
+// ASSIGN a comparison result to a variable
+let result = (5 > 4);
+console.log(result);
+
+// Comparing STRINGS (text) uses dictionary order
+// TRUE if letter is later in order
+console.log('Z' > 'A');
+console.log('Caleb' == 'Himself')
